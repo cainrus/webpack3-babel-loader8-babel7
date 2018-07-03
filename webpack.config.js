@@ -15,18 +15,6 @@ module.exports = {
                     exclude: /node_modules/,
 					use: {
 						loader: 'babel-loader',
-						options: {
-							presets: [
-								["@babel/preset-env", {
-									"debug": true,
-                    				'useBuiltIns': 'usage',
-									'modules': false,
-									"shippedProposals": true,
-									"targets": { node: 10.5 }
-								}]
-							],
-							babelrc: false
-						}
 					}
                 }
             ]

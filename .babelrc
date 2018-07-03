@@ -1,0 +1,16 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "debug": true,
+                "shippedProposals": true,
+                'modules': false,
+				'useBuiltIns': 'usage',
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ]
+    ]
+}
