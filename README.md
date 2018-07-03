@@ -2,13 +2,14 @@
 
 Environment:
 ```
-$ node -v
-v10.5.0
-$ npm -v
-6.1.0
+node -v
+$ v10.5.0
+npm -v
+$ 6.1.0
 ```
 Start:
 ```
-npm i;
+$ npm i;
 npx webpack;
+npx babel index.js -o ./dist.js
 ```
